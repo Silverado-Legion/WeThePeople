@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WeThePeopleConfig>
+	<RepublicKingdoms>
+		<Republic>Vlandia</Republic>
+		<Republic>Sturgia</Republic>
+		<Republic>Northern Empire</Republic>
+	</RepublicKingdoms>
+
+	<CultureMultipliers>
+		<Culture>
+			<!-- DO NOT DELETE THE DEFAULT CULTURE! IF THERE IS AN ISSUE, OR A CULTURE ISN'T LISTED HERE, AND THE DEFAULT CULTURE IS REMOVED, THE MOD WILL THROW AN EXCEPTION! -->
+			<Name>DEFAULT</Name>
+			<Militia>0.1</Militia>
+			<Food>0.2</Food>
+			<Garrison>-0.2</Garrison>
+			<Loyalty>0.3</Loyalty>
+			<Security>0.3</Security>
+			<Prosperity>0.3</Prosperity>
+		</Culture>
+
+		<!-- Vlandia: Default values reflecting a balanced, urbanized society -->
+		<Culture>
+			<Name>Vlandia</Name>
+			<Militia>0.1</Militia>
+			<Food>0.2</Food>
+			<Garrison>-0.2</Garrison>
+			<Loyalty>0.3</Loyalty>
+			<Security>0.3</Security>
+			<Prosperity>0.3</Prosperity>
+		</Culture>
+
+		<!-- Sturgia: A hardy, northern culture needing robust food supplies and defense -->
+		<Culture>
+			<Name>Sturgia</Name>
+			<Militia>0.15</Militia>
+			<Food>0.25</Food>
+			<Garrison>-0.1</Garrison>
+			<Loyalty>0.2</Loyalty>
+			<Security>0.3</Security>
+			<Prosperity>0.2</Prosperity>
+		</Culture>
+
+		<!-- Aserai: A desert culture focused on trade and resourcefulness, placing emphasis on food and prosperity -->
+		<Culture>
+			<Name>Aserai</Name>
+			<Militia>0.1</Militia>
+			<Food>0.3</Food>
+			<Garrison>-0.1</Garrison>
+			<Loyalty>0.25</Loyalty>
+			<Security>0.2</Security>
+			<Prosperity>0.25</Prosperity>
+		</Culture>
+
+		<!-- Khuzait: Nomadic and martial, they favor a strong militia and agile security, with less emphasis on settled prosperity -->
+		<Culture>
+			<Name>Khuzait</Name>
+			<Militia>0.22</Militia>
+			<Food>0.15</Food>
+			<Garrison>-0.05</Garrison>
+			<Loyalty>0.2</Loyalty>
+			<Security>0.3</Security>
+			<Prosperity>0.18</Prosperity>
+		</Culture>
+
+		<!-- Batannia: Tribal societies that emphasize high loyalty and local defense, even if it means sacrificing some overall security -->
+		<Culture>
+			<Name>Battania</Name>
+			<Militia>0.15</Militia>
+			<Food>0.25</Food>
+			<Garrison>-0.25</Garrison>
+			<Loyalty>0.4</Loyalty>
+			<Security>0.15</Security>
+			<Prosperity>0.3</Prosperity>
+		</Culture>
+
+		<!-- Empire: A bureaucratic, militarily robust culture where a positive garrison value reflects the strength of its professional armies,
+         though internal divisions lower overall loyalty -->
+		<Culture>
+			<Name>Empire</Name>
+			<Militia>0.1</Militia>
+			<Food>0.2</Food>
+			<Garrison>0.1</Garrison>
+			<Loyalty>0.2</Loyalty>
+			<Security>0.3</Security>
+			<Prosperity>0.1</Prosperity>
+		</Culture>
+	</CultureMultipliers>
+</WeThePeopleConfig>
